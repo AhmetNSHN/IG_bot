@@ -128,5 +128,5 @@ class unfolllowlist_maker:
 
 run = unfolllowlist_maker()
 
-#@ahmetncsahin
+# you can follow @ahmetncsahin
 
