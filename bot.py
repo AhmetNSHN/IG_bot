@@ -11,9 +11,9 @@ from selenium.common.exceptions import NoSuchElementException
 
 class unfolllowlist_maker:
     def __init__(self):
-        self.USERNAME = 'ahmetncsahin'
-        self.PASSWORD = '702180090'
-        usr = "ahmetncsahin"
+        self.USERNAME = '' #-> your username here
+        self.PASSWORD = '' #-> your password here
+        usr = "" #-> username that will be checked here
         self.bot = webdriver.Safari()
 
         self.login()
@@ -127,4 +127,6 @@ class unfolllowlist_maker:
 
 
 run = unfolllowlist_maker()
+
+#@ahmetncsahin
 
