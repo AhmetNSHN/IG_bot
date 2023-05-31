@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 
 TIME_OUT = 15
 
-class unfolllowlist_maker:
+class unfollowerslist_maker:
     def __init__(self):
         self.USERNAME = ''  # -> your username here
         self.PASSWORD = ''  # -> your password here
@@ -103,5 +103,5 @@ class unfolllowlist_maker:
                 self.unfollow_list.append(f)
 
 
-run = unfolllowlist_maker()
+run = unfollowerslist_maker()
 # @ahmetncsahin
